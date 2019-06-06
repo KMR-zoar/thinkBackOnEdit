@@ -2,7 +2,7 @@ const assert = require('assert')
 const GeoJSON = require('../class/geojson')
 const Feature = require('../class/feature')
 
-describe('GeoJSONの作成', () => {
+describe('GeoJSONクラスの定義', () => {
   const geojson = new GeoJSON()
 
   const properties1 = new Feature.Properties()
