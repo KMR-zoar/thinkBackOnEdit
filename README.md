@@ -11,6 +11,7 @@ Don't forget follows:
 > Warning 1: Do not map for Osmose, keepright, etc. Only fix real errors which you understand and know how to improve correctly!!!
 > 
 > Warning 2: Avoid mechanical edits. If it was a case for automatic edit, osmose was able to do so!
+> 
 > <cite style="display:block;text-align:right;">[_Osmose - OpenStreetMap Wiki_](https://wiki.openstreetmap.org/wiki/Osmose)</cite>
  
 
