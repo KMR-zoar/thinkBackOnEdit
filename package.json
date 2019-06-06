@@ -1,7 +1,7 @@
 {
-  "name": "myqa2geojson",
+  "name": "thinkbackonedit",
   "version": "1.0.0",
-  "description": "",
+  "description": "Think back on my edit.",
   "main": "src/index.js",
   "directories": {
     "test": "test"
