@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "description": "Think back on my edit.",
   "main": "src/index.js",
-  "directories": {
-    "test": "test"
-  },
   "dependencies": {
+    "axios": "^0.19.0",
     "rss-parser": "^3.7.1"
   },
   "devDependencies": {
     "asset": "^0.4.13",
     "mocha": "^6.1.4"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "node src/index.js"
+  },
   "author": "zoar",
   "license": "MIT"
 }
