@@ -32,6 +32,8 @@ e.g.
 
 `npm run start -- "k_zoar"`
 
+This tool can create up to 500 feature tasks.
+
 Load result.geojson with your QA tool.  
 
 ...But wait a minute, could you be able to improve all its QA tasks? Keep it in an amount that allows you to complete all of the tasks when you import to a QA tool. A large number of tasks have already been registered for prominent tools.
