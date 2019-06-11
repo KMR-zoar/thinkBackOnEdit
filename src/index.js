@@ -20,7 +20,7 @@ const url = urlJoin(baseURL, rss)
 axios.get(url).then(res => {
   rssparser.parseString(res.data).then(feed => {
     const geojson = geojsonCreator(feed)
-    fs.writeFile('resule.geojson', JSON.stringify(geojson, null, 2), () => {
+    fs.writeFile('result.geojson', JSON.stringify(geojson, null, 2), () => {
       console.log('done')
     })
   })
