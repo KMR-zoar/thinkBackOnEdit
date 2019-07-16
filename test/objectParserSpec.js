@@ -24,4 +24,20 @@ describe('オブジェクトパーサー', () => {
 
     assert.equal(content, JSON.stringify(result))
   })
+
+  const contentSnippet2 = {
+    contentSnippet:
+      'Conflict between tags: amenity, landuse\n        item=4030, class=900, level=1\n        E\n        josm'
+  }
+
+  it('コンテンツのパース2', () => {
+    const content = JSON.stringify({
+      isClass: 900,
+      isLevel: 1
+    })
+
+    const result = parsers.contentParser(contentSnippet2.contentSnippet)
+
+    assert.equal(content, JSON.stringify(result))
+  })
 })
